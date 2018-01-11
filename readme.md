@@ -4,10 +4,13 @@
 npm install balbel-cli -d
 
 npm install babel-preset-env -d
+
 npm install babel-eslint -d
 
 npm install eslint-config-airbnb -d
+
 npm install eslint-plugin-jsx-a11y@ -d
+
 npm install eslint-plugin-react -d
 
 ## Eslint - autoFixOnSave
