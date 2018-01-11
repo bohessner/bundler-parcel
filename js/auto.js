@@ -1,28 +1,20 @@
-export class Auto {
-  constructor (data) {
-    this.make = data.make
-    this.model = data.model
-    this.year = data.year
-    this.price = data.price
-  }
+export default class Auto {
+    constructor( data ) {
+        this.make = data.make;
+        this.model = data.model;
+        this.year = data.year;
+        this.price = data.price;
+    }
 
-  getTotal (taxRate) {
-    return this.price + (this.price * taxRate)
-  }
+    getTotal( taxRate ) {
+        return this.price + ( this.price * taxRate );
+    }
 
-  getDetails () {
-    return `${this.year} ${this.make} ${this.model}`
-  }
+    getDetails() {
+        return `${ this.year } ${ this.make } ${ this.model }`;
+    }
 
-  myFunc () {
-    console.log('så kommer der en meget lang tekst her.....')
-  }
-
-  myFunc1 () {
-    console.log('så kommer der en meget lang tekst her.....')
-  }
-
-  myFunc2 () {
-    console.log('så kommer der en meget lang tekst her.....')
-  }
+    static myFunc() {
+        console.log( "så kommer der en meget lang tekst her....." );
+    }
 }
