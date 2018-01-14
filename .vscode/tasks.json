@@ -7,7 +7,7 @@
             "label": "babel",
             "type": "shell",
             "windows": {
-                "command": ".\\node_modules\\.bin\\babel js --out-dir dist --source_maps"
+                "command": ".\\node_modules\\.bin\\babel src\\js --out-dir public\\js --source_maps"
             },
             "problemMatcher": []
         },
@@ -15,7 +15,7 @@
             "label": "babel-watch",
             "type": "shell",
             "windows": {
-                "command": ".\\node_modules\\.bin\\babel js --out-dir dist -w --source_maps"
+                "command": ".\\node_modules\\.bin\\babel src\\js --out-dir public\\js -w --source_maps"
             },
             "problemMatcher": [],
             "group": {
