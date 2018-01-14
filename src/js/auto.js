@@ -15,6 +15,6 @@ export default class Auto {
     }
 
     static myFunc() {
-        console.log( "så kommer der en meget lang tekst her...." );
+        console.log( "Her er jeg" );
     }
 }

@@ -1,41 +1,19 @@
-# Babel
+# Parcel bundler
 
-## Installation - babel & eslint
-npm install balbel-cli -d
+## Installation
+npm install parcel -g
 
-npm install babel-preset-env -d
+## Webserver(hot module replacement) built in 
+npm run dev 
 
-npm install babel-eslint -d
+Use: localhost i browser
 
-npm install eslint-config-airbnb -d
+## Produktion
+npm run build
 
-npm install eslint-plugin-jsx-a11y@ -d
+## Parcel links
+https://github.com/parcel-bundler
 
-npm install eslint-plugin-react -d
+## Git links
+https://help.github.com/articles/duplicating-a-repository
 
-## Installation - web server
-npm install express -d
-npm install serve-static -d
-
-### Start local webserver
-node server
-
-### Start babel watcher
-Start task: babel-watch
-
-## Eslint - autoFixOnSave
-File->Preferences->Settings 
-
-User Settings: "eslint.autoFixOnSave": true
-
-## Links
-https://babeljs.io/docs/plugins/preset-env/
-
-https://github.com/airbnb/javascript
-
-https://medium.freecodecamp.org/adding-some-air-to-the-airbnb-style-guide-3df40e31c57a
-
-https://eslint.org/docs/rules/
-
-## We need a bundler to excute import/eksport in a browser
-Select af bundler branch
